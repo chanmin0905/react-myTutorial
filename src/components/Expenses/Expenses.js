@@ -8,6 +8,7 @@ import "./Expenses.css";
 
 const Expenses = ({items}) => {
   const [filteredYear, setFilteredYear] = useState("2022");
+  // const [filteredExpenses, setFilteredExepnses] = useState(items);
 
   const filterChangeHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
